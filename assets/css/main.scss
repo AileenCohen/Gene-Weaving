@@ -1,0 +1,44 @@
+---
+# Front Matter is required
+---
+
+// 1. Custom Variables (Your Brand Colors)
+$teal-primary: #00796B; 
+$orange-secondary: #FF9800; 
+$text-dark: #333333;
+
+// 2. Apply custom styles
+
+// Main text and body colors
+body {
+    color: $text-dark;
+    background-color: #F8F8F8;
+}
+
+// Apply Primary Teal to headings and main accents
+h1, h2, h3 {
+    color: $teal-primary;
+}
+
+// Style links (Navigation and in-text links)
+a {
+    color: $teal-primary;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+
+// Optional: Style the blockquotes for emphasis
+blockquote {
+    border-left: 4px solid $orange-secondary;
+    color: $text-dark;
+    padding-left: 1em;
+}
+
+// Style code blocks and structure code sections
+code {
+    background-color: #eee;
+    padding: 2px 4px;
+    border-radius: 3px;
+}
