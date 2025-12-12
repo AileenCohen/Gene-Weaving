@@ -5,7 +5,7 @@ A lightweight Python toolkit and GUI concept for assisting with transcription fa
 **Gene Weaver** is a developing bioinformatics tool aimed at simplifying common sequence-level design tasks for transcription factor (TF) research.  
 Its goal is to provide a single interface where researchers can fetch basic TF annotations, preview domain/disorder architecture, and generate simple primer designs for common cloning workflows.
 
-The project is intended as a practical assistant for small-scale TF engineering tasks, with an emphasis on clarity and reproducibility rather than comprehensive automation.
+The project is intended as a practical assistant for small-scale TF engineering tasks, with an emphasis on clarity, reproducibility and automation.
 
 ---
 
