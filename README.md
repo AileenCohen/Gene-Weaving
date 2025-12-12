@@ -10,7 +10,7 @@ The project is intended as a practical assistant for small-scale TF engineering 
 ---
 
 ## Motivation
-Designing constructs for transcription factors often requires collecting information from several sources—UniProt for sequences, InterPro for domain boundaries, disorder prediction tools for IDR regions, and then manually incorporating that information into cloning strategies.  
+Designing constructs for transcription factors often requires collecting information from several sources: UniProt for sequences, InterPro for domain boundaries, disorder prediction tools for IDR regions, and then manually incorporating that information into cloning strategies.  
 Although none of these steps are individually complex, together they can slow down experimental planning.
 
 Gene Weaver aims to:
