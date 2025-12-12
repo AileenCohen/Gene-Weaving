@@ -1,6 +1,6 @@
 title: Gene Weaver
 description: Automated Primer Design for Transcription Factor Research.
-logo: Gene_Weaver.png 
+logo: /assets/img/Gene_Weaver.png 
 url: "https://AileenCohen.github.io/GeneWeaver" 
 baseurl: "/GeneWeaver" 
 theme: jekyll-theme-minimal
