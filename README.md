@@ -1,6 +1,15 @@
+---
+layout: default
+---
+
 <p align="center">
-  <img src="assets/img/Gene_Weaving.jpg" width="250">
+  <img src="assets/img/Gene_Weaving.jpg" width="300" alt="Gene Weaver Logo">
 </p>
+
+<h1 align="center">Gene Weaver</h1>
+<p align="center"><i>Automated Primer Design for Transcription Factor Research</i></p>
+
+---
 
 # Gene Weaving: TF Designer
 
@@ -93,6 +102,7 @@ python -m pytest
 - Logomaker (Motif visualization)
 - Requests (API management)
 - Pytest (Validation)
+  
 ---
 
 Gene Weaving is a project focused on providing accessible, practical tools for transcription factor construct design.  
