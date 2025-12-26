@@ -1,0 +1,8 @@
+logomaker
+matplotlib
+pandas
+requests
+streamlit
+metapredict
+biopython
+pytest
