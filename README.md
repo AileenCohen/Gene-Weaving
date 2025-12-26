@@ -13,7 +13,7 @@ The project is intended as a practical assistant for small-scale TF engineering 
 Designing constructs for transcription factors often requires collecting information from several sources: UniProt for sequences, InterPro for domain boundaries, disorder prediction tools for IDR regions, and then manually incorporating that information into cloning strategies.  
 Although none of these steps are individually complex, together they can slow down experimental planning.
 
-Gene Weaver aims to:
+Gene Weaving aims to:
 - centralize essential annotation steps,
 - offer straightforward primer design for basic constructs,
 - and provide organized outputs suitable for lab documentation.
@@ -24,7 +24,7 @@ The goal is not to replace full-featured bioinformatics platforms, but to stream
 
 ## Project Structure (Draft)
 ```
-GeneWeaver/
+GeneWeaving/
 │
 ├─ src/
 │ ├─ api/ # Basic interfaces for external data sources
@@ -70,7 +70,7 @@ These design tools focus on small, clearly defined edits rather than complex mul
 
 ## Example Workflow
 1. User inputs a UniProt ID (e.g., `P10275` for human MYC).  
-2. Gene Weaver retrieves:
+2. Gene Weaving retrieves:
    - primary sequence  
    - InterPro-annotated domain boundaries  
    - predicted disorder regions (if enabled)  
@@ -104,6 +104,6 @@ The interface will prioritize clarity and ease of use over feature complexity.
 
 ---
 
-Gene Weaver is a project focused on providing accessible, practical tools for transcription factor construct design.  
+Gene Weaving is a project focused on providing accessible, practical tools for transcription factor construct design.  
 Its scope is intentionally modest, emphasizing usability and core functionality over full automation.
 If you have any additional ideas, please open an issue and let me know.
