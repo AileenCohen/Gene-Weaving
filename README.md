@@ -5,8 +5,6 @@ layout: default
 <p align="center">
   <img src="assets/img/Gene_Weaving.jpg" width="300" alt="Gene Weaver Logo">
 </p>
-
-<h1 align="center">Gene Weaver</h1>
 <p align="center"><i>Automated Experimental Design for Transcription Factor Research</i></p>
 
 ---
