@@ -2,12 +2,11 @@
 layout: default
 ---
 
-<p align="center">
-  <img src="assets/img/Gene_Weaving.jpg" width="300" alt="Gene Weaver Logo">
-</p>
-<p align="center"><i>Automated Experimental Design for Transcription Factor Research</i></p>
+<link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
 
----
+<p align="center">
+  <img src="assets/img/Gene_Weaving.jpg" width="300" alt="Gene Weaving Logo">
+</p>
 
 # Gene Weaving: TF Designer
 
