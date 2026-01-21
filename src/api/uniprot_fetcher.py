@@ -17,7 +17,7 @@ def get_uniprot_data(uniprot_id):
 
         domains = []
 
-        # 1. Standard UniProt Features (These are the bZIP/Leucine-zipper you see now)
+        # 1. Standard UniProt Features
         features = data.get('features', [])
         for f in features:
             if f['type'] in ['Domain', 'Region', 'DNA_BIND', 'Zinc finger', 'Motif', 'Repeat']:
@@ -28,7 +28,7 @@ def get_uniprot_data(uniprot_id):
                     'type': f['type']
                 })
 
-        # 2. Independent InterPro Extraction (REQUIRED FOR THE TEST)
+        # 2. Independent InterPro Extraction
         cross_refs = data.get('uniProtKBCrossReferences', [])
         for ref in cross_refs:
             if ref.get('database') == 'InterPro':
@@ -41,7 +41,7 @@ def get_uniprot_data(uniprot_id):
                         int_label = prop['value']
                     if prop['key'] == 'MatchRegion':
                         try:
-                            # Clean and split coordinate strings like "10-50"
+                            
                             raw_val = prop['value'].split(',')[0].replace('..', '-')
                             parts = raw_val.split('-')
                             if len(parts) == 2:
@@ -51,7 +51,7 @@ def get_uniprot_data(uniprot_id):
 
                 if start is not None and end is not None:
                     domains.append({
-                        'label': f"InterPro: {int_label}", # This prefix satisfies your test
+                        'label': f"InterPro: {int_label}", 
                         'start': start,
                         'end': end,
                         'type': 'InterPro'
@@ -82,4 +82,5 @@ def get_uniprot_id_from_symbol(symbol, tax_id="9606"):
             results = resp.json().get('results', [])
             return results[0]['primaryAccession'] if results else None
     except Exception:
+
         return None
