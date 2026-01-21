@@ -15,15 +15,15 @@ layout: default
 ## Overview
 **Gene Weaving** is a lightweight Python toolkit and interactive workbench designed to streamline the design of transcription factor (TF) constructs. It bridges the gap between raw sequence data and lab-ready cloning strategies by centralizing protein architecture, disorder prediction, and primer design into a single automated workflow.
 
-The project focuses on the unique challenges of **Intrinsically Disordered Proteins (IDPs)** and complex TF assemblies, providing researchers with a visual and analytical "loom" to weave together domains, disordered regions, and binding sites.
+The project focuses on the unique challenges of **Intrinsically Disordered Proteins (IDPs)** and complex TF assemblies, as well as handeling mutant design, providing researchers with a visual and analytical "loom" to weave together domains, disordered regions, and binding sites.
 
 ---
 
 ## Motivation
-Designing constructs for TFs often requires manual data collection from multiple siloed sources. Gene Weaving aims to:
+Designing constructs for TFs often requires manual data collection from multiple siloed sources, which may be labor intensive and time consuming. Gene Weaving aims to:
 * **Centralize Annotations:** Aggregate data from UniProt, JASPAR, and String-DB.
 * **Visualize "Hidden" Architecture:** Map InterPro structural domains alongside **MetaPredict** disorder profiles to identify surgical boundaries for truncations.
-* **Automate Interaction Discovery:** Identify recruitment partners for co-activators that lack direct DNA-binding motifs.
+* **Automate Interaction Discovery:** Identify recruitment partners.
 * **Simplify Precision Engineering:** Automate CRISPR/gRNA mapping and primer generation for deletions or substitutions.
 
 ---
@@ -106,4 +106,4 @@ Gene Weaving is a project focused on providing accessible, practical tools for t
 Its scope is intentionally modest, emphasizing usability and core functionality over full automation.
 If you have any additional ideas, please open an issue and let me know.
 
-Created by Aileen Cohen.
+Created by Aileen Cohen as a final froject for the python course number 20263071 in the Weizmann Institute of Science.
