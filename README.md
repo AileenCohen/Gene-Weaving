@@ -78,8 +78,9 @@ GeneWeaving/
     ```
     python main.py
     ```
+    Then, a local browser should be accessible: http://localhost:8501 
 ## Testing:
-To ensure coordinate math and API connections are functioning correctly, run the automated test suite:
+To ensure connections are functioning correctly, run the automated test suite:
 ```
 python -m pytest
 ```
