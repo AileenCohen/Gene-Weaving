@@ -55,7 +55,7 @@ GeneWeaving/
 │   └── gui/        # Streamlit-based interactive workbench
 ├── tests/          # Pytest suite for API and analysis validation
 ├── requirements.txt
-└── .gitignore      # Optimized for Python and Bioinformatics tools
+└── main.py         # Run this to start the application
 ```
 ---
 
