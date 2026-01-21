@@ -53,11 +53,11 @@ def plot_protein_architecture(total_len, domains, idrs):
                 va='bottom',
                 fontsize=9,
                 fontweight='bold',
-                rotation=35  # Better angle for long text
+                rotation=35  
             )
 
     ax.set_xlim(0, total_len + 10)
-    ax.set_ylim(0, 4)  # Generous headroom for labels
+    ax.set_ylim(0, 4)  
     ax.axis('off')
     st.pyplot(fig)
 
@@ -68,7 +68,7 @@ def get_cached_analysis(sequence):
     return get_disorder_scores(sequence), analyze_disorder(sequence)
 
 
-# --- APP SETUP ---
+# --- SETUP ---
 st.set_page_config(page_title="Gene Weaving", layout="wide", page_icon="🧬")
 st.title("🧬 Gene Weaving: TF Designer")
 
@@ -221,4 +221,5 @@ if st.session_state.protein_data:
         csv = pd.DataFrame(st.session_state.primer_list).to_csv(index=False).encode('utf-8')
         st.download_button("📥 Download Primer CSV", csv, f"primers_{st.session_state.current_id}.csv", "text/csv")
 else:
+
     st.info("Enter a UniProt ID to begin (e.g., P01106 for Human MYC).")
