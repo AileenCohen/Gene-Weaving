@@ -15,6 +15,7 @@ def design_grnas(dna_seq):
                 "sequence": guide,
                 "pam": "NGG",
                 "gc": gc,
-                "start_index": i  # Crucial for mapping to domains
+                "start_index": i  
             })
+
     return results[:5]
