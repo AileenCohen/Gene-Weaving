@@ -62,7 +62,7 @@ GeneWeaving/
 ## Installation & Setup
 1. Clone the repository:
    ```
-   git clone [https://github.com/AileenCohen/Gene-Weaving.git](https://github.com/AileenCohen/Gene-Weaving.git)
+   git clone https://github.com/AileenCohen/Gene-Weaving.git
    cd Gene-Weaving
    ```
 2. Create a virtual environment:
