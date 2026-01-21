@@ -26,7 +26,7 @@ def analyze_disorder(sequence: str):
     for i, score in enumerate(scores):
         if score >= threshold:
             if current_idr_start is None:
-                current_idr_start = i + 1  # 1-based start
+                current_idr_start = i + 1  
         else:
             if current_idr_start is not None:
                 current_idr_end = i
@@ -47,5 +47,6 @@ def analyze_disorder(sequence: str):
                 "end": current_idr_end,
                 "type": "IDR"
             })
+
 
     return idrs
